@@ -32,7 +32,7 @@ APIs for the tasks can be found at [this url](https://mockend.com/lakhanmandloi/
 
 # How to submit your solution:
 
-- Please clone this repo.
+- Please clone this repo. You can click on "Use this template" button to do so.
 - Please complete the tasks.
 - Once done, please share your repo with us on [people@cookstro.com](mailto:people@cookstro.com).
 - We will contact you back within 48 hours.
