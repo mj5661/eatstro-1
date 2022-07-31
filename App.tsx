@@ -11,16 +11,6 @@ export default function App() {
   );
 }
 
-const Layout = styled.View`
-  display: flex;
-  height: 100vh;
-  width: 100%;
-  flex: 1;
-  background-color: #fff;
-  align-items: 'center';
-  justify-content: 'center';
-`
-
 const Container = styled.View`
 	flex: 1;
 	background-color: papayawhip;
