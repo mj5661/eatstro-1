@@ -16,7 +16,7 @@ const Container = styled.View`
 	background-color: papayawhip;
 	justify-content: center;
 	align-items: center;
-  padding: 1rem;
+	padding: 1rem;
 `;
 
 const Title = styled.Text`
