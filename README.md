@@ -19,7 +19,7 @@ If you apply, we will ask you to do this project so we can asses your ability to
 Translate the UI from [this Figma](https://www.figma.com/file/hlgqHKF9mwWrL6e7Lej7yo/Cookstro-Hiring) into _modular_ code.
 APIs for the tasks can be found at [this url](https://mockend.com/lakhanmandloi/fake-api/graphql).
 
-![screen](./assets/screen.png)
+![screen](https://github.com/cookstro/eatstro/blob/90765f03bf8d2a64ca0e998cc66ba911d6006dc6/assets/screen.png)
 
 ## Tasks
 
