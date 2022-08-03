@@ -39,3 +39,31 @@ APIs for the tasks can be found at [this url](https://mockend.com/lakhanmandloi/
 - Once done, please share your repo with us on [people@cookstro.com](mailto:people@cookstro.com).
 - We will contact you back within 48 hours.
 - If you have any queries, please do contact us. We will try to answer your queries as soon as possible.
+
+# How do we evaluate your assignment ?
+
+* We test your submission with our Figma screen. We first check if it looks almost same or not.
+
+* We check that menu on the bottom of the screen is there or not. We check alignments and tap on "favourites" and "orders".
+
+* We check if cart in circle is there or not. Perfectly executing this gets you bonus points.
+
+* We check how do you implement search functionality. 
+
+* We are not big fan of Redux or Mobx. 
+
+  * So we are curious about your take on state-management. 
+  * We personally prefer small libs like Zustand, Recoil or Jotai. XState is also an option.
+
+* We check how you make http calls. How do you integrate GraphQL client!
+
+  * We check how you integrate graphql-codegen. This is very important.
+  * We prefer `react-query` but there are no wrong choices. Apollo and URQL are equally good.
+
+* We check how you implement caching, debouncing and error-handling.
+
+* We check and run the tests you write. It's fine if you just write only integration tests.
+
+  
+
+  In general, we want to you to write the code that you can happily ship to production 🙂
