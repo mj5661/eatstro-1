@@ -18,6 +18,9 @@ If you apply, we will ask you to do this project so we can asses your ability to
 
 Translate the UI from [this Figma](https://www.figma.com/file/hlgqHKF9mwWrL6e7Lej7yo/Cookstro-Hiring) into _modular_ code.
 APIs for the tasks can be found at: https://mockend.com/lakhanmandloi/fake-api/graphql.
+The base URL for Queries should be same: https://mockend.com/lakhanmandloi/fake-api/graphql.
+If you're testing via Postman then use the above as `base_url` and then change method to `POST`. 
+Then in `body` choose `graphql` radio button. Now you can make same queries via Postman :) 
 
 [](https://github.com/cookstro/eatstro/blob/2b87710fcb558c6ee41c807bd3d2208b4183d414/assets/screen.jpg)
 
