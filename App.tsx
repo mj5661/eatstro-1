@@ -1,26 +1,17 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import styled from 'styled-components/native';
+import { useFonts } from 'expo-font';
+import React from 'react';
+import Home from './src/screens/Home';
 
-export default function App() {
-  return (
-    <Container>
-      <Title>🦄 We are excited to see what you build!</Title>
-      <StatusBar style="auto" />
-    </Container>
-  );
+const App = () => {
+	const [loaded] = useFonts({
+    DMSans: require('./src/assets/fonts/DMSans-Medium.ttf'),
+    Abel: require('./src/assets/fonts/Abel-Pro.otf'),
+  });
+
+  if (!loaded) {
+    return null;
+  }
+  return (<Home />);
 }
 
-const Container = styled.View`
-	flex: 1;
-	background-color: papayawhip;
-	justify-content: center;
-	align-items: center;
-	padding: 1rem;
-`;
-
-const Title = styled.Text`
-	font-size: 40px;
-	font-weight: 500;
-	color: palevioletred;
-`;
+export default App;
